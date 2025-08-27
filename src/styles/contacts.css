@@ -1,0 +1,86 @@
+.contactContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 130px);
+    flex-direction: column;
+    background-color: #e2e2e235;
+}
+
+.contactContainer h1 {
+    margin-bottom: 40px;
+}
+
+form {
+    width: 35%;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 19px -3px #000000; 
+    box-shadow: 5px 5px 19px -3px #000000;
+}
+
+.inputContainer {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inputContainer label {
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputContainer input {
+    width: 100%;
+    margin: 10px 0;
+    height: 35px;
+    padding: 7px;
+    font-size: 15px;
+    outline: none; /* remove a borda azul padrão do navegador */
+    transition: border-color 0.3s;
+}
+
+.inputContainer input:focus {
+    border: 2px solid cornflowerblue;
+   
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 300px;
+    max-height: 500px;
+    max-width: 600px;
+    padding: 7px;
+    font-size: 15px;
+    outline: none;
+}
+
+textarea:focus {
+    border: 2px solid cornflowerblue;
+
+}
+
+.btnContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btnContainer input[type = submit] {
+    width: 250px;
+    height: 35px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnContainer input[type = submit]:hover {
+    background-color: rgb(100, 196, 237);
+}
+
+

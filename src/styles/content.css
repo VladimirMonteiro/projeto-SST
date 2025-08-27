@@ -1,0 +1,45 @@
+.contentCenterPage {
+    width: 100%;
+
+}
+
+.contentCenterPage h2 {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.contentCenterPage p {
+    width: 80%;
+    margin: 50px auto;
+    line-height: 1.7em;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.sectionSeg {
+    width: 100%;
+}
+
+.sectionSeg h2 {
+    width: 80%;
+    margin: 50px auto;
+    
+}
+
+.sectionSeg ul {
+    width: 80%;
+    margin: 50px auto;
+    list-style: none;
+}
+
+.sectionSeg ul li {
+    margin: 30px 0;
+}
+
+.sectionSeg ul li h3 {
+    font-size: 16px;
+}
+
+.sectionSeg ul li p {
+    margin: 20px 0;
+}
