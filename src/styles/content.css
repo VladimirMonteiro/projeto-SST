@@ -43,3 +43,12 @@
 .sectionSeg ul li p {
     margin: 20px 0;
 }
+.image-1{
+    text-align: center;
+    margin: 0 auto;
+    width: 420px;
+    height: 420px;
+}
+.span-titel{
+    border-bottom: 2px solid cornflowerblue;
+}
