@@ -1,1 +1,1 @@
-# projeto-senai-sst
+# projeto-senai-SST
